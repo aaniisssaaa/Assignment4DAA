@@ -1,0 +1,24 @@
+{
+  "vertices": 8,
+  "edges": [
+    {"from": 0, "to": 1, "weight": 2.0},
+    {"from": 1, "to": 2, "weight": 3.0},
+    {"from": 2, "to": 3, "weight": 1.5},
+    {"from": 3, "to": 1, "weight": 1.0},
+    {"from": 0, "to": 4, "weight": 4.0},
+    {"from": 4, "to": 5, "weight": 2.5},
+    {"from": 5, "to": 6, "weight": 1.0},
+    {"from": 6, "to": 7, "weight": 2.0},
+    {"from": 2, "to": 5, "weight": 3.5}
+  ],
+  "labels": {
+    "0": "StartTask",
+    "1": "CleanStreet_A",
+    "2": "InspectSensors_A",
+    "3": "ReportStatus_A",
+    "4": "RepairCamera_B",
+    "5": "CleanStreet_B",
+    "6": "InspectSensors_B",
+    "7": "EndTask"
+  }
+}

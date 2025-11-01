@@ -1,0 +1,22 @@
+{
+  "vertices": 7,
+  "edges": [
+    {"from": 0, "to": 1, "weight": 5.0},
+    {"from": 0, "to": 2, "weight": 3.0},
+    {"from": 1, "to": 3, "weight": 2.0},
+    {"from": 2, "to": 3, "weight": 4.0},
+    {"from": 2, "to": 4, "weight": 1.0},
+    {"from": 3, "to": 5, "weight": 2.5},
+    {"from": 4, "to": 5, "weight": 6.0},
+    {"from": 5, "to": 6, "weight": 1.5}
+  ],
+  "labels": {
+    "0": "InitSystem",
+    "1": "CheckCameras",
+    "2": "ScheduleClean",
+    "3": "ProcessData",
+    "4": "UpdateDB",
+    "5": "GenerateReport",
+    "6": "NotifyAdmin"
+  }
+}
