@@ -34,24 +34,6 @@ asik4daa/
 ├── data/                          # 9 test datasets
 └── pom.xml
 ```
-```
-asik4daa/
-в”њв”Ђв”Ђ src/
-в”‚   в”њв”Ђв”Ђ main/
-в”‚   в”‚   в””в”Ђв”Ђ java/
-в”‚   в”‚       в”њв”Ђв”Ђ graph/
-в”‚   в”‚       в”‚   в”њв”Ђв”Ђ scc/          # SCC detection (Tarjan)
-в”‚   в”‚       в”‚   в”њв”Ђв”Ђ topo/         # Topological sorting
-в”‚   в”‚       в”‚   в”њв”Ђв”Ђ dagsp/        # DAG shortest/longest paths
-в”‚   в”‚       в”‚   в””в”Ђв”Ђ common/       # Common utilities
-в”‚   в”‚       в””в”Ђв”Ђ Main.java
-в”‚   в””в”Ђв”Ђ test/
-в”‚       в””в”Ђв”Ђ java/
-в”‚           в””в”Ђв”Ђ graph/
-в”њв”Ђв”Ђ data/                          # 9 test datasets
-в””в”Ђв”Ђ pom.xml
-```
-
 ## Algorithms Implemented
 
 ### 1. Strongly Connected Components (Tarjan's Algorithm)
