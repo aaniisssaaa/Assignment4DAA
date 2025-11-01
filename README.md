@@ -1,4 +1,4 @@
-﻿# рџЏ™пёЏ Smart City/Smart Campus Scheduling
+﻿# Smart City/Smart Campus Scheduling
 
 ## Project Overview
 This project implements graph algorithms for scheduling city-service tasks with dependencies:
@@ -10,13 +10,30 @@ This project implements graph algorithms for scheduling city-service tasks with 
 City services (street cleaning, repairs, sensor maintenance) have dependencies that may contain cycles. 
 We detect cycles (SCCs), compress them into a DAG, and compute optimal scheduling paths.
 
-## рџЋЇ Grade Target: 100/100
-- вњ… Algorithmic correctness (55%)
-- вњ… Report & analysis (25%)
-- вњ… Code quality & tests (15%)
-- вњ… Repo/Git hygiene (5%)
+## Grade Target: 100/100
+- [x] Algorithmic correctness (55%)
+- [x] Report & analysis (25%)
+- [x] Code quality & tests (15%)
+- [x] Repo/Git hygiene (5%)
 
 ## Project Structure
+```
+asik4daa/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       ├── graph/
+│   │       │   ├── scc/          # SCC detection (Tarjan)
+│   │       │   ├── topo/         # Topological sorting
+│   │       │   ├── dagsp/        # DAG shortest/longest paths
+│   │       │   └── common/       # Common utilities
+│   │       └── Main.java
+│   └── test/
+│       └── java/
+│           └── graph/
+├── data/                          # 9 test datasets
+└── pom.xml
+```
 ```
 asik4daa/
 в”њв”Ђв”Ђ src/
