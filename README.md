@@ -10,12 +10,6 @@ This project implements graph algorithms for scheduling city-service tasks with 
 City services (street cleaning, repairs, sensor maintenance) have dependencies that may contain cycles. 
 We detect cycles (SCCs), compress them into a DAG, and compute optimal scheduling paths.
 
-## Grade Target: 100/100
-- [x] Algorithmic correctness (55%)
-- [x] Report & analysis (25%)
-- [x] Code quality & tests (15%)
-- [x] Repo/Git hygiene (5%)
-
 ## Project Structure
 ```
 asik4daa/
